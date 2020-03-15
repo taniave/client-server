@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <unistd.h>
 #include <arpa/inet.h>
-
+#include <math.h>
 #define SERVER "172.16.211.163"
 #define PUERTO "6677"
 #define PKTSIZE 1024
